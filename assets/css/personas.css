@@ -7,3 +7,25 @@
     padding-top: 3rem;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 0) { /*celulares*/
+    .persona {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width: 768px) { /*tablet*/
+    .persona {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 0) { /*celulares*/
+    .personas {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px) { /*tablet*/
+    .personas {
+        flex-direction: row;
+    }
+}
